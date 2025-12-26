@@ -34,36 +34,31 @@ A privacy-focused, offline Applicant Tracking System (ATS) optimizer built with 
 * *Recommended:* A virtual environment.
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/yourusername/ats-optimizer.git](https://github.com/yourusername/ats-optimizer.git)
+
+git clone https://github.com/Suraj317github/ats-resume-optimizer.git
 cd ats-optimizer
 2. Create a Virtual Environment
+
 Mac/Linux:
-
-Bash
-
 python3 -m venv venv
 source venv/bin/activate
+
 Windows:
-
-Bash
-
 python -m venv venv
 .\venv\Scripts\activate
-3. Install Dependencies
-Bash
 
+
+3. Install Dependencies
 pip install streamlit spacy PyPDF2 python-docx sentence-transformers torch
+
 Note for Mac M1/M2 Users: If you encounter issues, ensure you are using a native ARM64 Python installation (via Homebrew or Python.org) to leverage the Neural Engine speed.
 
 🏃‍♂️ How to Run
 Navigate to the project folder in your terminal.
 
 Run the Streamlit app:
-
-Bash
-
 streamlit run app.py
+
 The application will open automatically in your web browser (usually at http://localhost:8501).
 
 First Run Note: The application will automatically download the required AI models (en_core_web_sm and all-MiniLM-L6-v2) upon the first launch. This may take 1-2 minutes depending on your internet connection.
@@ -100,6 +95,7 @@ ats-optimizer/
 ├── README.md             # Project documentation
 ├── requirements.txt      # (Optional) List of dependencies
 └── .gitignore            # Files to ignore (e.g., venv/)
+
 🤝 Contributing
 Contributions are welcome! If you have suggestions for improving the "fluff word" filter or optimizing the semantic model, feel free to fork the repo and submit a Pull Request.
 
