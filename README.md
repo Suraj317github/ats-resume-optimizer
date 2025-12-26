@@ -87,14 +87,8 @@ Uses Sentence-Transformers to convert the Resume and JD into high-dimensional ve
 Calculates Cosine Similarity to determine how closely the documents match in meaning, even if the words are different.
 
 The Scoring Formula
-$$ \text{Final Score} = (\text{Keyword Score} \times 0.6) + (\text{Semantic Score} \times 0.4) $$
+Final Score = Keyword Score x 0.6 + Semantic Score x 0.4
 
-📂 Project Structure
-ats-optimizer/
-├── app.py                # Main application logic
-├── README.md             # Project documentation
-├── requirements.txt      # (Optional) List of dependencies
-└── .gitignore            # Files to ignore (e.g., venv/)
 
 🤝 Contributing
 Contributions are welcome! If you have suggestions for improving the "fluff word" filter or optimizing the semantic model, feel free to fork the repo and submit a Pull Request.
